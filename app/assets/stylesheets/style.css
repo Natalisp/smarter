@@ -1,0 +1,43 @@
+body {
+  font-size: 25px;
+  background: #eff1c5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 20vh;
+
+}
+
+.modal {
+  position: relative;
+  width: 20vw;
+  height: 40vh;
+  text-align: center;
+  padding-top: 2vh;
+}
+
+.word {
+  text-align: left;
+  font-size: 60px;
+  color: 000;
+  margin: 5vh;
+}
+
+.description {
+  text-align: right;
+  font-size: 30px;
+}
+
+.fa {
+  font-size : 48px;
+  color     : red;
+  margin    : 15px;
+  cursor    : pointer;
+}
+
+.fa:hover {
+  color : darkorange;
+}

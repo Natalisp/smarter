@@ -28,11 +28,12 @@ class Modal extends React.Component {
       <div className="container">
         <div className="modal">
           <h3 className="word">{this.state.content.toUpperCase()}</h3>
-          <div className="description">{this.state.description}</div>
+          <div className="description">{this.state.description}
+          </div>
       </div>
+      <div className="thumb1"><i className="fa fa-thumbs-o-up" style={{fontSize: "68px"}}></i></div>
+      <div className="thumb2"><i className="fa fa-thumbs-o-down" style={{fontSize: "68px"}}></i></div>
     </div>
-    <div className="thumb1"><i className="fa fa-thumbs-o-up" style={{fontSize: "68px"}}></i></div>
-    <div className="thumb2"><i className="fa fa-thumbs-o-down" style={{fontSize: "68px"}}></i></div>
   </div>
     )
   }

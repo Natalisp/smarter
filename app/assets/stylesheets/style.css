@@ -1,3 +1,7 @@
+html, body {
+  width:100%;
+}
+
 body {
   font-size: 25px;
   background: #eff1c5;
@@ -5,7 +9,7 @@ body {
 }
 
 .container {
-  max-width: 400px;
+  width: 30vw;
   margin: 0 auto;
   padding-top: 20vh;
 
@@ -13,48 +17,55 @@ body {
 
 .modal {
   position: relative;
-  width: 20vw;
   height: 40vh;
   text-align: center;
   padding-top: 2vh;
 }
 
 .word {
-  text-align: left;
+  text-align: center;
   font-size: 60px;
   color: 000;
   margin: 5vh;
 }
 
 .description {
-  text-align: right;
-  font-size: 30px;
+  text-align: center;
+  font-size: 50px;
+  display: inline-block;
+}
+
+.description::before {
+  content: ":"
 }
 
 .thumb1 {
-  display: inline-block;
   float: left;
+  width: 20px;
+  margin: 20px;
 }
 
 .thumb2 {
-  display: inline-block;
-  float: left;
+  float: right;
+  width: 20px;
+  margin: 20px;
+
 }
 
 .fa {
-  color     : red;
-  margin    : 15px;
-  cursor    : pointer;
-  position: relative;
-  left: 30vw;
+  margin-top: 10vh;
+  cursor: pointer;
 }
 
 .fa:hover {
   color : darkorange;
 }
 
+.fa-thumbs-o-up {
+  color     : red;
+}
+
 .fa-thumbs-o-down {
   color: blue;
   position: relative;
-  right: 80vw;
 }

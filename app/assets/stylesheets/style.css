@@ -31,13 +31,30 @@ body {
   font-size: 30px;
 }
 
+.thumb1 {
+  display: inline-block;
+  float: left;
+}
+
+.thumb2 {
+  display: inline-block;
+  float: left;
+}
+
 .fa {
-  font-size : 48px;
   color     : red;
   margin    : 15px;
   cursor    : pointer;
+  position: relative;
+  left: 30vw;
 }
 
 .fa:hover {
   color : darkorange;
+}
+
+.fa-thumbs-o-down {
+  color: blue;
+  position: relative;
+  right: 80vw;
 }

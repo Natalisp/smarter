@@ -31,7 +31,8 @@ class Modal extends React.Component {
           <div className="description">{this.state.description}</div>
       </div>
     </div>
-    <div><i className="fa fa-thumbs-o-up"></i></div>
+    <div className="thumb1"><i className="fa fa-thumbs-o-up" style={{fontSize: "68px"}}></i></div>
+    <div className="thumb2"><i className="fa fa-thumbs-o-down" style={{fontSize: "68px"}}></i></div>
   </div>
     )
   }
